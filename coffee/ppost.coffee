@@ -13,7 +13,7 @@ POST     = '__POST__'
 if process.type == 'renderer'
 
     electron = require 'electron'
-    remote   = electron.remote
+    remote   = require '@electron/remote'
     
 
     # 000   000  000  000   000    
